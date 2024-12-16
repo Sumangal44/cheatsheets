@@ -26,10 +26,10 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/sumangal44/cheatsheets' }
     ],
     footer: {
-      message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
-      copyright: 'Copyright © 2019-present <a href="https://github.com/yyx990803">sumangal44</a>'
+      message: 'Released under the <a href="https://github.com/sumangal44/cheatsheets/blob/master/LICENSE">MIT License</a>.',
+      copyright: 'Copyright © 2024-present <a href="https://github.com/sumangal44">sumangal44</a>'
     }  }
 })

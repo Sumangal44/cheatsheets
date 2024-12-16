@@ -1,19 +1,4 @@
 
----
-title: Python
-date: 2020-12-23 18:41:20
-background: bg-[#436b97]
-tags:
-  - script
-  - interpret
-categories:
-  - Programming
-intro: |
-  The [Python](https://www.python.org/) cheat sheet is a one-page reference sheet for the Python 3 programming language.
-plugins:
-  - copyCode
----
-
 ## Getting Started
 
 ### Introduction
