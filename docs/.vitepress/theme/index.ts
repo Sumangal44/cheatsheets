@@ -3,6 +3,9 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import { inject } from '@vercel/analytics';
+
+inject();
 
 export default {
   extends: DefaultTheme,
