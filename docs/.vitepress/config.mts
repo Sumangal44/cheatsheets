@@ -9,7 +9,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Cheatsheets', link: '../python/index' }
+      { text: 'Cheatsheets', link: '../python/index' },
+      {text: 'Changelog',items:[
+        {text:"v0.1.5",link:"https://github.com/sumangal44/cheatsheets/releases/tag/v0.1.5"},
+        {text:"v0.1.4",link:"https://github.com/sumangal44/cheatsheets/releases/tag/v0.1.4"},
+        {text:"v0.0.3",link:"https://github.com/sumangal44/cheatsheets/releases/tag/v0.0.3"},
+        {text:"v0.0.2",link:"https://github.com/sumangal44/cheatsheets/releases/tag/v0.0.2"},
+        {text:"v0.0.1-alpha",link:"https://github.com/sumangal44/cheatsheets/releases/tag/v0.0.1-alpha"},
+      ]}
     ],
     search: {
       provider: 'local'
@@ -18,8 +25,16 @@ export default defineConfig({
       {
         text: 'Cheatsheets',
         items: [
+          { text: 'JavaScript', link: '../javascript/index' },
           { text: 'Python', link: '../python/index' },
-          { text: 'JavaScript', link: '../javascript/index' }
+          { text: 'Git', link: '../git/index' },
+          { text: 'HTML', link: '../html/index' },
+          { text: 'CSS', link: '../css/index' },
+          { text: 'TypeScript', link: '../typescript/index' },
+          { text: 'React', link: '../react/index' },
+          { text: 'Vue', link: '../vue/index' },
+          { text: 'Node.js', link: '../node/index' },
+          { text: 'Linux', link: '../linux/index' },
         ]
       }
     ],
